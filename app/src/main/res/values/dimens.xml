@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="logo_width">192dp</dimen>
+    <dimen name="logo_height">192dp</dimen>
+    <dimen name="logo_margin">100dp</dimen>
+    <dimen name="btn_text_size">25sp</dimen>
+    <dimen name="btn_text_padding_right_left">60dp</dimen>
+    <dimen name="btn_text_padding_top_bottom">10dp</dimen>
+    <dimen name="space_between_dates">32dp</dimen>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#E91E63</color>
+    <color name="colorPrimaryDark">#C2185B</color>
+    <color name="colorAccent">#FF5252</color>
+    <color name="btn_add_note_text_color">#d63031</color>
+    <color name="dialog_background">#223344</color>
+    <color name="dialog_completed_background">#223344</color>
+    <color name="item_completed">#833471</color>
+    <color name="item_not_completed">#6F1E51</color>
+</resources>

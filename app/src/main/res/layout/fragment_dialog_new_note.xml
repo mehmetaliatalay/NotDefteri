@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dialog_background">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="24dp"
+        android:layout_height="match_parent"
+        android:padding="24dp">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            android:layout_marginBottom="36dp"
+            android:textSize="18sp"
+            android:text="Bir Not Ekle" />
+
+
+        <ImageButton
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_alignTop="@+id/tv_title"
+            android:layout_alignBottom="@+id/tv_title"
+            android:layout_alignParentRight="true"
+            android:background="@null"
+            android:id="@+id/btn_close"
+            android:src="@drawable/ic_action_cancel"
+            android:tint="@color/colorPrimary" />
+
+        <EditText
+            android:id="@+id/et_note"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_title"
+            android:hint="Not Girin"
+            android:background="@drawable/et_background_color"
+            android:maxLines="1"
+            android:padding="16dp" />
+
+        <mehmetali.com.notdefterim.MyDatePicker
+            android:id="@+id/dp_date"
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/et_note"/>
+
+        <Button
+            android:id="@+id/btn_add_note"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dp_date"
+            android:background="@drawable/btn_background_color"
+            android:text="Notu Ekle"
+            android:textAllCaps="false" />
+
+    </RelativeLayout>
+
+</ScrollView>

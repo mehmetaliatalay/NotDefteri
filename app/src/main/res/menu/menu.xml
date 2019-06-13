@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_new_note"
+        android:icon="@drawable/ic_action_add"
+        android:title="Ekle"
+        app:showAsAction="always"></item>
+    <item
+        android:id="@+id/menu_no_filter"
+        android:icon="@drawable/ic_action_add"
+        android:title="Filtre Yok"></item>
+    <item
+        android:id="@+id/menu_long_note"
+        android:icon="@drawable/ic_action_add"
+        android:title="Uzun Süreli "></item>
+    <item
+        android:id="@+id/menu_short_note"
+        android:icon="@drawable/ic_action_add"
+        android:title="Kısa Süreli "></item>
+    <item
+        android:id="@+id/menu_completed_note"
+        android:icon="@drawable/ic_action_add"
+        android:title="Tamamlanan "></item>
+    <item
+        android:id="@+id/menu_not_completed_note"
+        android:icon="@drawable/ic_action_add"
+        android:title="Tamamlanmayan "></item>
+
+
+</menu>

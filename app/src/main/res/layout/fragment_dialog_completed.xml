@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:background="@color/dialog_completed_background">
+
+    <ImageButton
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:src="@drawable/ic_action_cancel"
+        android:id="@+id/btn_dialog_close"
+        android:tint="@color/colorPrimaryDark"
+        android:background="@null"
+        android:layout_above="@+id/btn_completed"
+        android:layout_alignParentEnd="true"/>
+
+    <Button
+        android:id="@+id/btn_completed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:text="Tamamlandı Olarak Ayarla"
+        android:drawablePadding="16dp"
+        android:layout_centerInParent="true"
+        android:textAllCaps="false"
+        android:layout_marginTop="96dp"
+        android:layout_marginBottom="96dp"
+        android:drawableTop="@drawable/ic_check_circle"
+        android:drawableTint="@color/colorAccent"/>
+
+</RelativeLayout>
